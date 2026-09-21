@@ -52,7 +52,7 @@ jobs:
         key: ${{runner.os}}-QtCache
 
     - name: '⚙️ Install Qt'
-      uses: jurplel/install-qt-action@v2
+      uses: jurplel/install-qt-action@v4.4.1
       with:
         modules: qtcharts
         cached: ${{steps.cache-qt.outputs.cache-hit}}
@@ -106,7 +106,7 @@ jobs:
         key: ${{runner.os}}-QtCache
 
     - name: '⚙️ Install Qt'
-      uses: jurplel/install-qt-action@v2
+      uses: jurplel/install-qt-action@v4.4.1
       with:
         modules: qtcharts
         cached: ${{steps.cache-qt.outputs.cache-hit}}
@@ -157,7 +157,7 @@ jobs:
         key: ${{runner.os}}-QtCache
 
     - name: '⚙️ Install Qt'
-      uses: jurplel/install-qt-action@v2
+      uses: jurplel/install-qt-action@v4.4.1
       with:
         modules: qtcharts
         cached: ${{steps.cache-qt.outputs.cache-hit}}
